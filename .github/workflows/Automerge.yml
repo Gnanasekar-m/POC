@@ -6,9 +6,9 @@ name: AutoMerge
 # events but only for the main branch
 on:
   workflow_dispatch:
-  #push:
-    #branches:  
-      #- HOTFIX
+  push:
+    branches:  
+      - HOTFIX
   #pull_request:
    # branches: 
       #- HOTFIX 
